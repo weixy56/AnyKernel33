@@ -10,17 +10,17 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=RMX2151
-device.name2=rmx2151
-device.name3=rmx2161
-device.name4=RMX2161
-device.name5=RMX2001
+device.name1=RMX1801
+device.name2=omni_RMX1801
+device.name3=rmx1801
+device.name4=r2p
+device.name5=
 supported.versions=
 supported.patchlevels=
 '; } # end properties
 
 # shell variables
-block=/dev/block/by-name/boot;
+block=/dev/block/bootdevice/by-name/boot;
 is_slot_device=0;
 ramdisk_compression=auto;
 
